@@ -1,0 +1,44 @@
+.table-class{
+  font-size: 12px;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.table-class th{
+  border: 1px solid;
+  border-bottom: 2px solid;
+  background-color: lightblue;
+}
+
+.table-class .sorted{
+  border: 1px solid;
+  border-bottom: 2px solid;
+  background-color: rgb(40, 113, 173);
+}
+
+.table-class th:hover{
+  cursor: pointer;
+  background-color: rgb(40, 113, 173);
+}
+.table-class td{
+  border: 1px solid;
+  padding: 5px;
+}
+
+.input-class{
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-header{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
